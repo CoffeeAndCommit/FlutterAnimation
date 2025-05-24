@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:animation_and_flutter/example2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.dark(),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const Example2(),
+      // home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
